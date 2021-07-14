@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* -----font style 
+----------------------*/
+.conmebol
+{
+    font-family: 'Poppins', sans-serif; 
+}
+.bennar-info
+{
+    font-family: 'Poppins', sans-serif; 
+}
+.live-info 
+{
+    font-family: 'Poppins', sans-serif;
+}
+#paregrep
+{
+ font-family: none;
+ font-size: 15px;
+}
+.player-titel
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -----------
+--------------bannerstyle
+------------------------------------ */
+.container-bennar
+{
+    background-color: #2D25A0;
+    width: px;
+     height: 677px;
+}
+.bennar-all
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-top: 30px;
+}
+.bennar-all .live-bennar img
+{
+    width: 556.01px;
+height: 438px;
+}
+
+.bennar-all .bennar-info
+{
+    margin-right: 20px;
+    width: 466px;
+     height: 309px;
+}
+.bennar-info
+{
+    font-size: 55px;
+    width: 485px;
+    height: 230px;
+    color: rgb(255, 255, 255);
+    padding-right: 92px;
+    padding-bottom: 10px 0px;
+}
+.bennars
+{ 
+    justify-content: center;
+    align-items: center;
+}
+.link-button01
+{
+    text-decoration:none;
+    background-image: linear-gradient(#f517bd,#e21fb1);
+    padding: 2px 24px;
+    border: 6px solid #f517bd;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+ 
+}
+.link-button01:hover 
+{
+    background-image: linear-gradient(#f517bd,#e21fb1);
+    box-shadow: 8px 10px 30px#e21fb1;
+    
+    
+}
+.link-
+{
+    margin-top: 64px;
+}
+
+
+        /* -----------------------------------------------------------------------------------
+        -----------playerlist=-----------
+        -------------------------------------------------------------------------------- */
+.container
+{
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            padding: 15px 0px;
+            padding-top: 67px;
+}
+
+
+.player-container 
+{
+     display: grid; 
+    grid-template-columns:repeat(3,1fr) ;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 30px;
+    grid-gap: 30px; 
+}  
+.player
+{
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+    padding: 0px 6px;
+}
+
+
+.player
+{
+    border: white 19px solid;
+    
+}
+.image-style
+{
+    width: 100%;   
+}
+.player-body .player-titel
+{
+    padding: 6px;
+    text-align: center;
+    font-size: 2em;
+}
+.player-body .player-desc
+{
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+/*-------------------------------------------------------------------------
+ to live match 
+ -----------------------------------------------------------------------*/
+.live-all
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-top: 30px;
+}
+.live-all .live-match img
+{
+    width: 567px;
+height: 427px;
+}
+.link-button
+{
+    text-decoration:none;
+    background-image: linear-gradient(#f517bd,#e21fb1);
+    padding: 10px 40px;
+    border: 6px solid #f517bd;
+    border-radius: 5px;
+    color: rgb(251, 255, 0);
+
+}
+.link-button:hover
+{
+    background-image: linear-gradient(#f517bd,#e21fb1);
+    box-shadow: 8px 10px 30px#e21fb1;
+}
+.live-all .live-info
+{
+    margin-right: 20px;
+    width: 466px;
+     height: 309px;
+}
+.live-info
+{
+    font-size: 35px;
+}
+.lives
+{ 
+    justify-content: center;
+    align-items: center;
+}
+           /* ---------------------------------------------------
+           ----------------------------------------------------------------------
+           -------------------------------------foters ---------------------------------------
+ 
+          ------------------------------------------------------------------------------------------*/
+.container02
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.foters
+{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 46px;
+}
+
+.foters   .foter img
+{
+    width: 62%;
+    padding: 114px 157px;
+    padding-bottom: 17px;
+}
+.foter-titel
+{
+    padding-left: 304px;
+       padding-top: 9px;
+        grid-template: cen;
+         display: flex;
+        flex-wrap: nowrap;      
+        justify-content: space-between;
+        padding-right: 151px;       
+} 
+.foter-icon
+{
+    padding-left: 168px;
+    margin-left: 154px;
+}
+.shedw
+{   
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px 6px;
+    border-radius: 9px;
+    color: rgb(145, 139, 139);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 4px#181718;
+}
+.shedw:hover
+{
+    background-image: linear-gradient(#fd006a,#ea00ff);
+    box-shadow: 1px 2px 2px#fd006a;
+    border: 2px solid #ea00ff;
+    color: rgb(6, 255, 243);
+}
